@@ -92,8 +92,8 @@ implemented using self-evaluating functions.
 ### Integers
 
 Integers are arbitrary precision but are otherwise as you would find
-them in any other language. They are analagous to Scheme's @Bignum@
-or Haskell's @Integer@.
+them in any other language. They are analagous to Scheme's ```Bignum```
+or Haskell's ```Integer```.
 
 ### Symbols
 
@@ -119,7 +119,7 @@ for constructing functions of multiple arguments.
 ### Lists
 
 Lists are implemented using the builtin, two argument, self-evaluating
-```cons``` function. It acts similar to the @(:)@ constructor in Haskell.
+```cons``` function. It acts similar to the ```(:)``` constructor in Haskell.
 Emyrald supports all of the regular list manipulation functions.
 
 ### Characters and Strings
