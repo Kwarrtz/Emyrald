@@ -16,6 +16,21 @@ been divided into five sub-modules:
    'baseEnv'.
  * Parse: provides functions for parsing a string into 'Expr's.
 
+
+## Installation
+
+To install the library and executables, first install the cabal
+command line tool, then run:
+
+```bash
+$ cabal update
+$ cabal configure
+$ cabal haddock # optional step -- creates documentation
+$ cabal build
+$ sudo cabal install
+```
+
+
 ## Background
 
 Not long after I first began to program, I was introduced to the
