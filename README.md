@@ -151,7 +151,7 @@ The syntaxes for literals are:
 Emyrald also specifies convenience syntaxes for chars, strings, lists
 and floats:
 
- * Characters: ```&c```, ```&"```, ```&\\newline```, ```&\\space```
+ * Characters: ```&c```, ```&"```, ```&\newline```, ```&\space```
  * Strings: ```"Hello World!"```
  * Lists: ```(7, "foo", 'symbol)```, ```()```
  * Floats: ```3.7```, ```-2.0```
